@@ -11,3 +11,63 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main-container {
+  max-width: 600px;
+  margin: 20px auto;
+
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.main-container .success-msg {
+position: absolute;
+width: 100%;
+height: 100%;
+z-index: 1;
+background-color: #fff;
+opacity: 0.8;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+font-weight: 600;
+}
+
+.image-container {
+  width: 100%;
+}
+
+.select-image {
+  width: 180px;
+  height: 180px;
+  margin: 10px;
+  position: relative;
+}
+
+.select-image.is-selected {
+  opacity: 0.5;
+}
+
+.info-container {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.buttons-container {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
